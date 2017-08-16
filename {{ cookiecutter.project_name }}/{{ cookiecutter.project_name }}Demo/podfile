@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, "8.0"
+use_frameworks!
+
+workspace '{{ cookiecutter.project_name }}'
+
+target '{{ cookiecutter.project_name }}Demo' do
+
+  project '{{ cookiecutter.project_name }}Demo'
+
+  pod '{{ cookiecutter.project_name }}', :path => '../'
+
+
+  target '{{ cookiecutter.project_name }}DemoTests' do
+  end
+
+  target '{{ cookiecutter.project_name }}DemoUITests' do
+  end
+
+end
+

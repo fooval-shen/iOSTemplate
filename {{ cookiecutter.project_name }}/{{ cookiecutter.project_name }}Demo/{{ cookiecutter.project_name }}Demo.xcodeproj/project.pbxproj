@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2D09FD8EF76F677B64B893 /* libPods-{{ cookiecutter.project_name }}Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A278FF402A9545DF834D1E /* libPods-{{ cookiecutter.project_name }}Demo.a */; };
+		0E7016A77F7269874C076FFC /* libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8063511BE410B734BC8CEE73 /* libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.a */; };
+		20DC169B1ECDAAD500694EB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DC169A1ECDAAD500694EB9 /* main.m */; };
+		20DC169E1ECDAAD500694EB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DC169D1ECDAAD500694EB9 /* AppDelegate.m */; };
+		20DC16A11ECDAAD500694EB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DC16A01ECDAAD500694EB9 /* ViewController.m */; };
+		20DC16A41ECDAAD500694EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DC16A21ECDAAD500694EB9 /* Main.storyboard */; };
+		20DC16A61ECDAAD500694EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DC16A51ECDAAD500694EB9 /* Assets.xcassets */; };
+		20DC16A91ECDAAD500694EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DC16A71ECDAAD500694EB9 /* LaunchScreen.storyboard */; };
+		20DC16B41ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DC16B31ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests.m */; };
+		20DC16BF1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DC16BE1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests.m */; };
+		C07DC9251E6396C05095D567 /* libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4039DDC568650ADA89D98650 /* libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20DC16B01ECDAAD500694EB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20DC168E1ECDAAD500694EB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20DC16951ECDAAD500694EB9;
+			remoteInfo = {{ cookiecutter.project_name }}Demo;
+		};
+		20DC16BB1ECDAAD500694EB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20DC168E1ECDAAD500694EB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20DC16951ECDAAD500694EB9;
+			remoteInfo = {{ cookiecutter.project_name }}Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1134333053ECC65A8DF89290 /* Pods-{{ cookiecutter.project_name }}Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.project_name }}Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo/Pods-{{ cookiecutter.project_name }}Demo.release.xcconfig"; sourceTree = "<group>"; };
+		20DC16961ECDAAD500694EB9 /* {{ cookiecutter.project_name }}Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = {{ cookiecutter.project_name }}Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DC169A1ECDAAD500694EB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20DC169C1ECDAAD500694EB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20DC169D1ECDAAD500694EB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20DC169F1ECDAAD500694EB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20DC16A01ECDAAD500694EB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20DC16A31ECDAAD500694EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20DC16A51ECDAAD500694EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20DC16A81ECDAAD500694EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20DC16AA1ECDAAD500694EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DC16AF1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = {{ cookiecutter.project_name }}DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DC16B31ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = {{ cookiecutter.project_name }}DemoTests.m; sourceTree = "<group>"; };
+		20DC16B51ECDAAD500694EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DC16BA1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = {{ cookiecutter.project_name }}DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DC16BE1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = {{ cookiecutter.project_name }}DemoUITests.m; sourceTree = "<group>"; };
+		20DC16C01ECDAAD500694EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DC16CE1ECE929900694EB9 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHANGELOG; path = ../CHANGELOG; sourceTree = "<group>"; };
+		20DC16CF1ECE929900694EB9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		20DC16D31ECE92EC00694EB9 /* {{ cookiecutter.project_name }}.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = {{ cookiecutter.project_name }}.podspec; path = ../{{ cookiecutter.project_name }}.podspec; sourceTree = "<group>"; };
+		20DC16D51ECE930800694EB9 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		20DC16D61ECE930800694EB9 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		29A278FF402A9545DF834D1E /* libPods-{{ cookiecutter.project_name }}Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-{{ cookiecutter.project_name }}Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4039DDC568650ADA89D98650 /* libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8063511BE410B734BC8CEE73 /* libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C058A273E14786B71715136 /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		938129CCE748F623D5E8171D /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5744B73828A469520EE7C05 /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAB802545212FBCE4C25527B /* Pods-{{ cookiecutter.project_name }}Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.project_name }}Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo/Pods-{{ cookiecutter.project_name }}Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D8EDDBEBD6271B7BA2582197 /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20DC16931ECDAAD500694EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2D09FD8EF76F677B64B893 /* libPods-{{ cookiecutter.project_name }}Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DC16AC1ECDAAD500694EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07DC9251E6396C05095D567 /* libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DC16B71ECDAAD500694EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7016A77F7269874C076FFC /* libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1512F4B8027AC44EFE8A07CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A278FF402A9545DF834D1E /* libPods-{{ cookiecutter.project_name }}Demo.a */,
+				4039DDC568650ADA89D98650 /* libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.a */,
+				8063511BE410B734BC8CEE73 /* libPods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20DC168D1ECDAAD500694EB9 = {
+			isa = PBXGroup;
+			children = (
+				1512F4B8027AC44EFE8A07CD /* Frameworks */,
+				4D943B9BE89B4387BE4B194C /* Pods */,
+				20DC16CC1ECE927C00694EB9 /* Podspec Metadata */,
+				20DC16971ECDAAD500694EB9 /* Products */,
+				20DC16981ECDAAD500694EB9 /* {{ cookiecutter.project_name }}Demo */,
+				20DC16B21ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests */,
+				20DC16BD1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		20DC16971ECDAAD500694EB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20DC16961ECDAAD500694EB9 /* {{ cookiecutter.project_name }}Demo.app */,
+				20DC16AF1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests.xctest */,
+				20DC16BA1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20DC16981ECDAAD500694EB9 /* {{ cookiecutter.project_name }}Demo */ = {
+			isa = PBXGroup;
+			children = (
+				20DC16991ECDAAD500694EB9 /* Supporting Files */,
+				20DC169C1ECDAAD500694EB9 /* AppDelegate.h */,
+				20DC169D1ECDAAD500694EB9 /* AppDelegate.m */,
+				20DC16A51ECDAAD500694EB9 /* Assets.xcassets */,
+				20DC16AA1ECDAAD500694EB9 /* Info.plist */,
+				20DC16A71ECDAAD500694EB9 /* LaunchScreen.storyboard */,
+				20DC16A21ECDAAD500694EB9 /* Main.storyboard */,
+				20DC169F1ECDAAD500694EB9 /* ViewController.h */,
+				20DC16A01ECDAAD500694EB9 /* ViewController.m */,
+			);
+			path = {{ cookiecutter.project_name }}Demo;
+			sourceTree = "<group>";
+		};
+		20DC16991ECDAAD500694EB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20DC169A1ECDAAD500694EB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20DC16B21ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				20DC16B51ECDAAD500694EB9 /* Info.plist */,
+				20DC16B31ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests.m */,
+			);
+			path = {{ cookiecutter.project_name }}DemoTests;
+			sourceTree = "<group>";
+		};
+		20DC16BD1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20DC16C01ECDAAD500694EB9 /* Info.plist */,
+				20DC16BE1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests.m */,
+			);
+			path = {{ cookiecutter.project_name }}DemoUITests;
+			sourceTree = "<group>";
+		};
+		20DC16CC1ECE927C00694EB9 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				20DC16CE1ECE929900694EB9 /* CHANGELOG */,
+				20DC16D61ECE930800694EB9 /* Podfile.lock */,
+				20DC16CF1ECE929900694EB9 /* README.md */,
+				20DC16D31ECE92EC00694EB9 /* {{ cookiecutter.project_name }}.podspec */,
+				20DC16D51ECE930800694EB9 /* podfile */,
+			);
+			name = "Podspec Metadata";
+			path = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		4D943B9BE89B4387BE4B194C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAB802545212FBCE4C25527B /* Pods-{{ cookiecutter.project_name }}Demo.debug.xcconfig */,
+				1134333053ECC65A8DF89290 /* Pods-{{ cookiecutter.project_name }}Demo.release.xcconfig */,
+				8C058A273E14786B71715136 /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.debug.xcconfig */,
+				D8EDDBEBD6271B7BA2582197 /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.release.xcconfig */,
+				938129CCE748F623D5E8171D /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.debug.xcconfig */,
+				C5744B73828A469520EE7C05 /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20DC16951ECDAAD500694EB9 /* {{ cookiecutter.project_name }}Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20DC16C31ECDAAD500694EB9 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name }}Demo" */;
+			buildPhases = (
+				3C29FC4DE0C1729529F62962 /* [CP] Check Pods Manifest.lock */,
+				20DC16921ECDAAD500694EB9 /* Sources */,
+				20DC16931ECDAAD500694EB9 /* Frameworks */,
+				20DC16941ECDAAD500694EB9 /* Resources */,
+				0478DDB48E92EFFC1FAB738C /* [CP] Embed Pods Frameworks */,
+				6D7ADE8AD8711FA8012E43C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = {{ cookiecutter.project_name }}Demo;
+			productName = {{ cookiecutter.project_name }}Demo;
+			productReference = 20DC16961ECDAAD500694EB9 /* {{ cookiecutter.project_name }}Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20DC16AE1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20DC16C61ECDAAD500694EB9 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name }}DemoTests" */;
+			buildPhases = (
+				3620691B14A307E85D61AC69 /* [CP] Check Pods Manifest.lock */,
+				20DC16AB1ECDAAD500694EB9 /* Sources */,
+				20DC16AC1ECDAAD500694EB9 /* Frameworks */,
+				20DC16AD1ECDAAD500694EB9 /* Resources */,
+				18C007646691ADC07F93F605 /* [CP] Embed Pods Frameworks */,
+				4A873C870AF08FC4D208EEF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20DC16B11ECDAAD500694EB9 /* PBXTargetDependency */,
+			);
+			name = {{ cookiecutter.project_name }}DemoTests;
+			productName = {{ cookiecutter.project_name }}DemoTests;
+			productReference = 20DC16AF1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20DC16B91ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20DC16C91ECDAAD500694EB9 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name }}DemoUITests" */;
+			buildPhases = (
+				032FBA9C138480D610F0CBB7 /* [CP] Check Pods Manifest.lock */,
+				20DC16B61ECDAAD500694EB9 /* Sources */,
+				20DC16B71ECDAAD500694EB9 /* Frameworks */,
+				20DC16B81ECDAAD500694EB9 /* Resources */,
+				0DBD2750E9DD4F9587F1DC77 /* [CP] Embed Pods Frameworks */,
+				BBAB7836C82C8602DA6FE7E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20DC16BC1ECDAAD500694EB9 /* PBXTargetDependency */,
+			);
+			name = {{ cookiecutter.project_name }}DemoUITests;
+			productName = {{ cookiecutter.project_name }}DemoUITests;
+			productReference = 20DC16BA1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20DC168E1ECDAAD500694EB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = {{ cookiecutter.company_name }};
+				TargetAttributes = {
+					20DC16951ECDAAD500694EB9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					20DC16AE1ECDAAD500694EB9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20DC16951ECDAAD500694EB9;
+					};
+					20DC16B91ECDAAD500694EB9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20DC16951ECDAAD500694EB9;
+					};
+				};
+			};
+			buildConfigurationList = 20DC16911ECDAAD500694EB9 /* Build configuration list for PBXProject "{{ cookiecutter.project_name }}Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20DC168D1ECDAAD500694EB9;
+			productRefGroup = 20DC16971ECDAAD500694EB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20DC16951ECDAAD500694EB9 /* {{ cookiecutter.project_name }}Demo */,
+				20DC16AE1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests */,
+				20DC16B91ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20DC16941ECDAAD500694EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DC16A91ECDAAD500694EB9 /* LaunchScreen.storyboard in Resources */,
+				20DC16A61ECDAAD500694EB9 /* Assets.xcassets in Resources */,
+				20DC16A41ECDAAD500694EB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DC16AD1ECDAAD500694EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DC16B81ECDAAD500694EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		032FBA9C138480D610F0CBB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0478DDB48E92EFFC1FAB738C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo/Pods-{{ cookiecutter.project_name }}Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DBD2750E9DD4F9587F1DC77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18C007646691ADC07F93F605 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3620691B14A307E85D61AC69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C29FC4DE0C1729529F62962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A873C870AF08FC4D208EEF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D7ADE8AD8711FA8012E43C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo/Pods-{{ cookiecutter.project_name }}Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBAB7836C82C8602DA6FE7E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests/Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20DC16921ECDAAD500694EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DC16A11ECDAAD500694EB9 /* ViewController.m in Sources */,
+				20DC169E1ECDAAD500694EB9 /* AppDelegate.m in Sources */,
+				20DC169B1ECDAAD500694EB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DC16AB1ECDAAD500694EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DC16B41ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DC16B61ECDAAD500694EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DC16BF1ECDAAD500694EB9 /* {{ cookiecutter.project_name }}DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20DC16B11ECDAAD500694EB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20DC16951ECDAAD500694EB9 /* {{ cookiecutter.project_name }}Demo */;
+			targetProxy = 20DC16B01ECDAAD500694EB9 /* PBXContainerItemProxy */;
+		};
+		20DC16BC1ECDAAD500694EB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20DC16951ECDAAD500694EB9 /* {{ cookiecutter.project_name }}Demo */;
+			targetProxy = 20DC16BB1ECDAAD500694EB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20DC16A21ECDAAD500694EB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20DC16A31ECDAAD500694EB9 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		20DC16A71ECDAAD500694EB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20DC16A81ECDAAD500694EB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20DC16C11ECDAAD500694EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20DC16C21ECDAAD500694EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20DC16C41ECDAAD500694EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB802545212FBCE4C25527B /* Pods-{{ cookiecutter.project_name }}Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = {{ cookiecutter.project_name }}Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }};
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20DC16C51ECDAAD500694EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1134333053ECC65A8DF89290 /* Pods-{{ cookiecutter.project_name }}Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = {{ cookiecutter.project_name }}Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }};
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20DC16C71ECDAAD500694EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C058A273E14786B71715136 /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = {{ cookiecutter.project_name }}DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.DemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/{{ cookiecutter.project_name }}Demo.app/{{ cookiecutter.project_name }}Demo";
+			};
+			name = Debug;
+		};
+		20DC16C81ECDAAD500694EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8EDDBEBD6271B7BA2582197 /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = {{ cookiecutter.project_name }}DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.DemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/{{ cookiecutter.project_name }}Demo.app/{{ cookiecutter.project_name }}Demo";
+			};
+			name = Release;
+		};
+		20DC16CA1ECDAAD500694EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938129CCE748F623D5E8171D /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = {{ cookiecutter.project_name }}DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.DemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = {{ cookiecutter.project_name }}Demo;
+			};
+			name = Debug;
+		};
+		20DC16CB1ECDAAD500694EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5744B73828A469520EE7C05 /* Pods-{{ cookiecutter.project_name }}Demo-{{ cookiecutter.project_name }}DemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = {{ cookiecutter.project_name }}DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.DemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = {{ cookiecutter.project_name }}Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20DC16911ECDAAD500694EB9 /* Build configuration list for PBXProject "{{ cookiecutter.project_name }}Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DC16C11ECDAAD500694EB9 /* Debug */,
+				20DC16C21ECDAAD500694EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20DC16C31ECDAAD500694EB9 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name }}Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DC16C41ECDAAD500694EB9 /* Debug */,
+				20DC16C51ECDAAD500694EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20DC16C61ECDAAD500694EB9 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name }}DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DC16C71ECDAAD500694EB9 /* Debug */,
+				20DC16C81ECDAAD500694EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20DC16C91ECDAAD500694EB9 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name }}DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DC16CA1ECDAAD500694EB9 /* Debug */,
+				20DC16CB1ECDAAD500694EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20DC168E1ECDAAD500694EB9 /* Project object */;
+}

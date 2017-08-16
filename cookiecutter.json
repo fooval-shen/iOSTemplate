@@ -1,0 +1,7 @@
+{
+  "project_name": "Project Name",
+  "company_name": "shenfh",
+  "bundle_identifier": "com.{{ cookiecutter.company_name | replace(' ', '-') | lower }}",
+  "author_name": "shenfh",
+  "author_email": "991761652@qq.com"
+}
